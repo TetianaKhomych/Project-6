@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="logo">
+
+			<div class="container">
+				<div class="logo">
             LOGO
         </div>
         <nav>
@@ -20,51 +22,71 @@
             <a class="nav-item" href="#">Процесс</a>
             <a class="nav-item" href="#">Контакты</a>
         </nav>
+			</div>
+        
     </header>
-    <div class="BlockDesign">
-        <p class="Title">Дизайн и верстка</p>
-        <p class="Text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-        <button class="Btn">Написать мне</button>
-    </div>
-    <div class="BlockAboutMe">
-        <p class="AboutMeTitle">Обо мне</p>
-        <p class="AboutMeText">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
 
+    <div class="blockDesign">
+			<div class="container">
+				<div class="design-box">
+					<h1 class="title">Дизайн и верстка</h1>
+					<p class="text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+					<button class="btn">Написать мне</button>
+				</div>
+			</div>
     </div>
-    <div class="BlockBlack">
-        <div class="ProjectsContainer">
-            <div class="Project">
-                <img class="ProjectImg" src="./project.svg" alt="">
-                <p class="ProjectText">40+ проектов</p>
-            </div>
-            <div class="Project">
-                <img class="ProjectImg" src="./project.svg" alt="">
-                <p class="ProjectText">40+ проектов</p>
-            </div>
-            <div class="Project">
-                <img class="ProjectImg" src="./project.svg" alt="">
-                <p class="ProjectText">40+ проектов</p>
-            </div>
-            <div class="Project">
-                <img class="ProjectImg" src="./project.svg" alt="">
-                <p class="ProjectText">40+ проектов</p>
-            </div>
-            <div class="Project">
-                <img class="ProjectImg" src="./project.svg" alt="">
-                <p class="ProjectText">40+ проектов</p>
-            </div>
-            <div class="Project">
-                <img class="ProjectImg" src="./project.svg" alt="">
-                <p class="ProjectText">40+ проектов</p>
+
+		<div class="about_me">
+			<div class="container">
+				<div class="about_me_box">
+					<h2 class="subtitle">Обо мне</h2>
+        	<p class="main_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+				</div>
+			</div>
+		</div>
+
+    <div class="blockBlack">
+        <div class="container">
+            <div class="ProjectsContainer">
+                <div class="Project">
+                    <img class="ProjectImg" src="image/project.svg" alt="">
+                    <p class="ProjectText">40+ проектов</p>
+                </div>
+                <div class="Project">
+                    <img class="ProjectImg" src="image/project.svg" alt="">
+                    <p class="ProjectText">40+ проектов</p>
+                </div>
+                <div class="Project">
+                    <img class="ProjectImg" src="image/project.svg" alt="">
+                    <p class="ProjectText">40+ проектов</p>
+                </div>
+                <div class="Project">
+                    <img class="ProjectImg" src="image/project.svg" alt="">
+                    <p class="ProjectText">40+ проектов</p>
+                </div>
+                <div class="Project">
+                    <img class="ProjectImg" src="image/project.svg" alt="">
+                    <p class="ProjectText">40+ проектов</p>
+                </div>
+                <div class="Project">
+                    <img class="ProjectImg" src="image/project.svg" alt="">
+                    <p class="ProjectText">40+ проектов</p>
+               </div>
             </div>
         </div>
     </div>
-    <div class="BlockWork">
-        <p class="AboutMeTitle">Как я работаю</p>
-        <p class="AboutMeText">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-<img class="ImgCode" src="./code 1.png" alt="">
-<button class="Btn btn-center">Написать мне</button>
-    </div>
-<footer>(с) 2022. Все права защищены.</footer>
+
+		<div class="work_block">
+			<div class="container">
+				<div class="work_box">
+					<h2 class="subtitle">Как я работаю</h2>
+        	<p class="main_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+				</div>
+				<img class="work_img" width="1200" height="600" src="image/code1.png" alt="background image">
+				<button class="btn">Написать мне</button>
+			</div>
+		</div>
+
+	<footer>(с) 2022. Все права защищены.</footer>
 </body>
 </html>
