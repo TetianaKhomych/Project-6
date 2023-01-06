@@ -1,0 +1,85 @@
+@media (max-width:768px){ 
+    header nav{ 
+        display: none;
+    }
+    .container{ 
+        max-width: 100%;
+    }
+    .design-box{
+        width: 100%;
+    }
+    .blockDesign{
+        padding: 50px 0 50px;
+    }
+    .text{
+        font-size: 21px;
+    }
+    .about_me_box{
+        width: 100%;
+    }
+    .work_box{
+        width: 100%;
+    }
+    .main_text{
+        width: 100%;
+        font-size: 21px;
+    }
+    .ProjectsContainer{
+        display: block;
+    }
+    .blockBlack{
+        padding: 10px 10px;
+    }
+    .Project{
+        width: 20%;
+        margin: 20px 40%;
+    }
+    .ProjectText{
+        font-size: 18px;
+    }
+    .work_img{
+        width: 100%;
+    }
+}
+@media (min-width:789px) and (max-width:992px) {
+    .container{
+        max-width: 100%;
+    }
+    .blockBlack{
+        padding: 85px 100px;
+    }
+    .ProjectsContainer{
+        width: 90%;
+    }
+    .ProjectText{
+        font-size: 18px;
+    }
+
+    .work_img{
+        width: 100%;
+    }
+    
+}
+@media(min-width:993px) and (max-width:1199px){
+    .container{
+        width: 100%;
+    }
+    .work_img{
+        width: 100%;
+    }
+}
+@media(min-width:1200px){ 
+    body{
+        display: flex;
+        justify-content: center;
+    }   
+    .mainContainer{ 
+        width: 1200px;
+    }
+    .container{
+        width: 1200px;
+    }
+    .blockBlack{
+        padding: 50px 10px;
+    }
+}
