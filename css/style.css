@@ -5,7 +5,7 @@ body {
 	font-weight: 400;
 }
 .container {
-	width: 1320px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 0 10px;
 }
@@ -111,6 +111,8 @@ color: #D4DDE1;
 }
 
 .work_img {
+	width: 100%;
+	height: auto;
 	margin-bottom: 70px;
 }
 
@@ -122,23 +124,27 @@ color: #D4DDE1;
 }
 .ProjectsContainer{
     display: flex;
-    justify-content: space-between;
+	flex-flow: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
 }
 .Project{
     width: 122px;
-    
 }
 .ProjectImg{
 width: 50px;
 height: 50px;
+
 margin: 0 36px;
 }
 .ProjectText{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 21px;
-line-height: 25px;
+	white-space: nowrap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 25px;
 
 }
 .blockWork{

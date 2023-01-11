@@ -26,6 +26,8 @@
     }
     .ProjectsContainer{
         display: block;
+        text-align: center;
+        margin: 0 0 26px;
     }
     .blockBlack{
         padding: 10px 10px;
@@ -39,9 +41,10 @@
     }
     .work_img{
         width: 100%;
+        height: auto;
     }
 }
-@media (min-width:789px) and (max-width:992px) {
+@media (min-width:769px) and (max-width:992px) {
     .container{
         max-width: 100%;
     }
@@ -69,15 +72,9 @@
     }
 }
 @media(min-width:1200px){ 
-    body{
-        display: flex;
-        justify-content: center;
-    }   
-    .mainContainer{ 
-        width: 1200px;
-    }
+
     .container{
-        width: 1200px;
+        max-width: 100%;
     }
     .blockBlack{
         padding: 50px 10px;
